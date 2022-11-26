@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
@@ -17,8 +18,8 @@ export const messagesSlice = createSlice({
   reducers: {},
   extraReducers(builder) {
     builder.addCase(getMessages.fulfilled, (state, action) => {
-      state.messages = action.payload;
-      state.status = 'succeeded';
+      state.messages = action.payload; 
+      state.status = 'succeeded'; 
     });
   },
 });
