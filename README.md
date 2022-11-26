@@ -27,7 +27,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-    git clone https://github.com/Fourteen98/Space-Travelers-Hub.git 
+    git clone https://github.com/Fourteen98/hello-react-front-end.git
+
 
 ### Install
     npm install
